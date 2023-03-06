@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-color: #dd692c;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: white;
+}
+
+
+body{
+    background-color: #ffcf72;
+}
+h1{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+
+/* Grid  y Flex Box*/
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+}
+
+.contenedor{
+    grid-column: span 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    justify-content: space-between;
+}
+
+.contenedor2 {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.razas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cortesraza{
+    display: flex;
+    justify-content: space-between;
+}
+
+.corte{
+    width: 290px;
+}
+
